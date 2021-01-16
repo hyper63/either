@@ -69,8 +69,7 @@ export const tryCatch = (f) => {
 };
 
 export const fromNullable = (x) => x != null ? Right(x) : Left(x);
-/*
+
 export const Either = {
   Right, Left, of, tryCatch, fromNullable 
 }
-*/
