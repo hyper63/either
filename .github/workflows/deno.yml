@@ -5,7 +5,7 @@ jobs:
     strategy:
       matrix:
         deno: [1.6.3]
-    name: Test with deno ${{matrix}.deno}}
+    name: Test with deno ${{ matrix.deno }}
     
     steps:
       - uses: actions/checkout@master
