@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": {
+      "cmd": "deno test mod_test.js",
+      "desc": "run tests",
+      "watch": true
+    }
+  },
+  "logger": {
+    "fullscreen": true,
+    "quiet": true
+  }
+}
