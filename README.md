@@ -27,7 +27,7 @@ deno install -qAf --unstable https://deno.land/x/denon/denon.ts
 ```
 
 ```
-denon test
+deno test mod_test.js
 ```
 
 
