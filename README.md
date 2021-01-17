@@ -33,7 +33,8 @@ fromNullable(null)
 
 ## Installation
 
-This is a Deno module available to import from https://x.nest.land/either
+This is a Deno module available to import from 
+https://nest.land/package/either 
 
 deps.js
 
