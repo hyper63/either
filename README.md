@@ -1,6 +1,5 @@
-<p align="center">
-  <h1>either</h1>
-  <p>Either is a ADT that can return one of two types a left or right. Useful for error handling, specifically handling nulls and exceptions in your pure application workflow.</p>
+<h1 align="center">either</h1>
+<p align="center">Either is a ADT that can return one of two types a left or right. Useful for error handling, specifically handling nulls and exceptions in your pure application workflow.</p>
 </p>
 
 ---
