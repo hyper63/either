@@ -2,7 +2,8 @@
 <p align="center">Either is a ADT that can return one of two types a left or right. Useful for error handling, specifically handling nulls and exceptions in your pure application workflow.</p>
 </p>
 <p align="center">
-  <a href="https://github.com/hyper63/tags/"><img src="https://img.shields.io/github/tag/hyper63/either" alt="Current Version" /></a>
+  <a href="https://github.com/hyper63/either/tags/"><img src="https://img.shields.io/github/tag/hyper63/either" alt="Current Version" /></a>
+  <img src="https://github.com/hyper63/either/workflows/.github/workflows/deno.yml/badge.svg" />
   
   </p>
 
