@@ -1,6 +1,10 @@
 <h1 align="center">either</h1>
 <p align="center">Either is a ADT that can return one of two types a left or right. Useful for error handling, specifically handling nulls and exceptions in your pure application workflow.</p>
 </p>
+<p align="center">
+  <a href="https://github.com/hyper63/tags/"><img src="https://img.shields.io/github/tag/hyper63/either" alt="Current Version" /></a>
+  
+  </p>
 
 ---
 
@@ -16,7 +20,7 @@
 ## Getting Started
 
 ```js
-import { Either } from 'https://nest.land/either/mod.ts'
+import { Either } from 'https://x.nest.land/either/mod.ts'
 const { fromNullable } = Either
 
 fromNullable(null)
