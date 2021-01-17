@@ -15,5 +15,5 @@ jobs:
       - run: |
           export PATH="/home/runner/.deno/bind:$PATH"
           eggs link ${{ secrets.NESTAPIKEY }}
-          eggs publish task --version 1.0.0 --files README.md mod.js --entry mod.js --description Algerbraic Data Type for handling async functions 
+          eggs publish either --bump --files README.md mod.js --entry mod.js --description Algerbraic Data Type for handling nulls and exceptions 
 
