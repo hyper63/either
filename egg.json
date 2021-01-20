@@ -3,8 +3,13 @@
   "version": "1.0.2",
   "description": "ADT for handling left or right pipelines, great full null checks and exception handling",
   "entry": "./mod.js",
-  "files": ["./README.md"],
+  "files": [
+    "./README.md"
+  ],
   "repo": "https://github.com/hyper63/either",
   "homepage": "https://github.com/hyper63/either",
-  "stable": true
+  "stable": true,
+  "check": true,
+  "ignore": [],
+  "unlisted": false
 }

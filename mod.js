@@ -59,7 +59,6 @@ export const Left = (x) => ({
   extract: () => x,
 });
 
-
 /**
  * @param {any} x
  * @returns {Either}

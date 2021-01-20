@@ -1,7 +1,8 @@
 name: nest
 on: 
-  release:
-      types: [published]
+  push:
+    tags:
+      - '*'
 
 jobs:
   publish-egg:
@@ -15,5 +16,5 @@ jobs:
       - run: |
           export PATH="/home/runner/.deno/bind:$PATH"
           eggs link ${{ secrets.NESTAPIKEY }}
-          eggs publish either --bump --files README.md mod.js --entry mod.js --description Algerbraic Data Type for handling nulls and exceptions 
+          eggs publish --yes 
 
