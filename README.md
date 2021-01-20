@@ -21,7 +21,7 @@
 ## Getting Started
 
 ```js
-import { Either } from 'https://x.nest.land/either/@1.0.2/mod.js'
+import { Either } from 'https://x.nest.land/either/@1.0.3/mod.js'
 const { fromNullable } = Either
 
 fromNullable(null)
@@ -39,7 +39,7 @@ https://nest.land/package/either
 deps.js
 
 ```
-export { Either } from 'https://x.nest.land/either@1.0.2/mod.js'
+export { Either } from 'https://x.nest.land/either@1.0.3/mod.js'
 ```
 
 ## Features
