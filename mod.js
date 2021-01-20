@@ -59,7 +59,17 @@ export const Left = (x) => ({
   extract: () => x,
 });
 
+
+/**
+ * @param {any} x
+ * @returns {Either}
+ */
 export const of = Right;
+
+/**
+ * @param {function} f
+ * @returns {Either}
+ */
 export const tryCatch = (f) => {
   try {
     return Right(f());
@@ -68,6 +78,10 @@ export const tryCatch = (f) => {
   }
 };
 
+/**
+ * @param {any} x
+ * @returns {Either}
+ */
 export const fromNullable = (x) => x != null ? Right(x) : Left(x);
 
 export const Either = {
