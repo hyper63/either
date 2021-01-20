@@ -1,6 +1,6 @@
 {
   "name": "either",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ADT for handling left or right pipelines, great full null checks and exception handling",
   "entry": "./mod.js",
   "files": [
