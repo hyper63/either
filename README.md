@@ -21,7 +21,7 @@
 ## Getting Started
 
 ```js
-import { Either } from 'https://x.nest.land/either/@1.0.1/mod.ts'
+import { Either } from 'https://x.nest.land/either/@1.0.2/mod.js'
 const { fromNullable } = Either
 
 fromNullable(null)
@@ -39,17 +39,19 @@ https://nest.land/package/either
 deps.js
 
 ```
-export { Either } from 'https://x.nest.land/either@1.0.1/mod.js'
+export { Either } from 'https://x.nest.land/either@1.0.2/mod.js'
 ```
 
 ## Features
 
-* fromNullable
-* tryCatch
+* fromNullable - `fromNullable(x).fold(console.error, console.log)`
+* tryCatch - `tryCatch(doFn).fold(console.error, console.log)`
 
 ## Methods
 
-TODO
+* of - Returns an Either as a Right
+* fromNullable - takes a value and if the value is null returns a Left and if the value is not null returns a Right
+* tryCatch - takes a function that is invoked and if an exception is thrown it returns a Left with the Error as the value, otherwise it returns a Right.
 
 ## Contributing
 
