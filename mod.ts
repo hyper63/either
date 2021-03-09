@@ -3,7 +3,7 @@ type U = { ([x, string]: any): any };
 type Other = { (other: Either): Either };
 
 type Either = {
-  ['@@type']: 'Either',
+  ["@@type"]: "Either";
   isLeft: boolean;
   chain: F;
   map: F;
@@ -17,7 +17,7 @@ type Either = {
 };
 
 export const Right = (x: any): Either => ({
-  ['@@type']: 'Either',
+  ["@@type"]: "Either",
   isLeft: false,
   chain: (f: U): Either => f(x),
   ap: (other: Either): Either => other.map(x),
@@ -35,7 +35,7 @@ export const Right = (x: any): Either => ({
 });
 
 export const Left = (x: any): Either => ({
-  ['@@type']: 'Either',
+  ["@@type"]: "Either",
   isLeft: true,
   chain: (f: U) => Left(x),
   ap: (other: Either): Either => Left(x),
