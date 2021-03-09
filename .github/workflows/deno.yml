@@ -4,11 +4,11 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        deno: [1.6.3]
+        deno: [1.8.0]
     name: Test with deno ${{ matrix.deno }}
     
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
       
       - name: Setup Deno
         uses: denolib/setup-deno@master
@@ -21,4 +21,4 @@ jobs:
         run: deno fmt --check **/*.ts
 
       - name: Run tests
-        run: deno test mod_test.js
+        run: deno test
