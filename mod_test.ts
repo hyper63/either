@@ -17,7 +17,7 @@ test("trap nulls", () =>
 test("pass if not null", () =>
   assertEquals(
     fromNullable(1)
-      .map((x : number) => x + 1)
+      .map((x: number) => x + 1)
       .extract(),
     2,
   ));
