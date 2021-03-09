@@ -21,7 +21,7 @@
 ## Getting Started
 
 ```js
-import { Either } from "https://x.nest.land/either/@1.0.5/mod.ts";
+import { Either } from "https://x.nest.land/either/@1.0.6/mod.ts";
 const { fromNullable } = Either;
 
 fromNullable(null)
@@ -38,7 +38,7 @@ This is a Deno module available to import from https://nest.land/package/either
 deps.js
 
 ```
-export { Either } from 'https://x.nest.land/either@1.0.5/mod.ts'
+export { Either } from 'https://x.nest.land/either@1.0.6/mod.ts'
 ```
 
 ## Features
