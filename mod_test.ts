@@ -1,5 +1,5 @@
-import { assertEquals } from "./test_deps.js";
-import { fromNullable, Left, Right } from "./mod.js";
+import { assertEquals } from "./test_deps.ts";
+import { fromNullable, Left, Right } from "./mod.ts";
 
 const { test } = Deno;
 
@@ -17,7 +17,7 @@ test("trap nulls", () =>
 test("pass if not null", () =>
   assertEquals(
     fromNullable(1)
-      .map((x) => x + 1)
+      .map((x : number) => x + 1)
       .extract(),
     2,
   ));
