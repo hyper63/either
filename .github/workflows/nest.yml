@@ -14,7 +14,7 @@ jobs:
             deno-version: 1.6.3
       - run: deno install -Af --unstable https://x.nest.land/eggs@0.3.4/eggs.ts
       - run: |
-          export PATH="/home/runner/.deno/bind:$PATH"
+          export PATH="/home/runner/.deno/bin:$PATH"
           eggs link ${{ secrets.NESTAPIKEY }}
           eggs publish --yes 
 
